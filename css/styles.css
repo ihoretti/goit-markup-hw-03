@@ -35,13 +35,13 @@ body {
 .header-logo .span-logo {
   color: #2196f3;
 }
-.nav-item.nav-link {
-  font-family: "Roboto";
+.nav-list.nav-link {
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--primary-dark-txt);
 }
 .link-porto {
   font-weight: 500;
