@@ -24,6 +24,12 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .header .header-logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
