@@ -16,6 +16,12 @@
   --primary-dark-bg: #2f303a;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
