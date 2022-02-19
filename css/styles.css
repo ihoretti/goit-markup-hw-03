@@ -44,14 +44,22 @@ a {
   width: 1200px;
   height: 80px;
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   align-items: center;
   justify-content: space-between;
-  background-color: tomato;
 }
-.list {
+
+.nav-container > .list {
   display: flex;
+  align-items: center;
+}
+.container > .list {
+  display: flex;
+  align-items: center;
+}
+.nav-container {
+  margin-right: 93px;
 }
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -60,7 +68,7 @@ a {
 .header .header-logo {
   width: 145px;
   height: 31px;
-  margin-right: 93px;
+  align-items: center;
 
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -73,7 +81,6 @@ a {
   color: #2196f3;
 }
 .nav-link {
-  margin: 32px, 50px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -132,11 +139,13 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .hero .hero-title-basic {
   display: block;
   width: 700px;
   height: 120px;
   margin: auto;
+
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 44px;
@@ -145,7 +154,11 @@ a {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+
 .hero .fono {
+  width: 1600px;
+  height: 600px;
+  margin: 0px;
   text-align: center;
   background-color: var(--primary-dark-bg);
 }
