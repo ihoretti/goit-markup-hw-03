@@ -38,7 +38,30 @@ body {
 a {
   text-decoration: none;
 }
+
+.header {
+  display: flex;
+  width: 1200px;
+  height: 80px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: tomato;
+}
+.list {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+}
+
 .header .header-logo {
+  width: 145px;
+  height: 31px;
+  margin-top: 24px;
+  margin-bottom: 25px;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -50,6 +73,7 @@ a {
   color: #2196f3;
 }
 .nav-link {
+  margin: 32px, 50px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -67,6 +91,13 @@ a {
   color: #2196f3;
 }
 .nav-item .nav-links {
+  width: 49px;
+  height: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-right 50px;
+  margin-left: 93px;
+  
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
@@ -97,6 +128,7 @@ a {
   color: #757575;
 }
 .header-item-tel .header-link-tel {
+  margin-left: 50px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -105,6 +137,10 @@ a {
   color: #757575;
 }
 .hero .hero-title-basic {
+  display: block;
+  width: 700px;
+  height: 120px;
+  margin: auto;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 44px;
@@ -117,6 +153,12 @@ a {
   background-color: var(--primary-dark-bg);
 }
 .hero-btn {
+  display: inline-block;
+  box-sizing: border-box;
+  min-width: 200px;
+  padding: 10px 32px;
+  text-align: center;
+
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
