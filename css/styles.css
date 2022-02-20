@@ -147,13 +147,12 @@ a {
   margin-right: auto;
 }
 
-.hero .hero-title-basic {
-  padding-top: 200px;
-  padding-bottom: 30px;
-  padding-right: 432px;
-  margin: auto;
-  width: 700px;
-
+.container-hero > .hero-title-basic {
+  min-width: 696px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+.hero-title-basic {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 44px;
@@ -193,27 +192,25 @@ a {
   margin: auto;
   padding: 0px;
 }
-.item > .centr {
+.hero-item > .hero-title-centr {
   width: 270px;
   height: 16px;
-  padding-bottom: 10px;
-  margin-left: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-right: 30px;
+  margin-top: 93px;
+  margin-bottom: 10px;
 }
-.item > .centr:not(:last-child) {
-  padding-right: 30px;
+.hero-item > .hero-title-centr:last-child {
+  padding-right: 0px;
 }
-.centr > .descr {
+.hero-title-centr > .hero-descr {
   width: 270px;
   height: 75px;
-  margin-left: auto;
+  margin-right: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-right: 30;
 }
-.centr > .descr:not(:last-child) {
-  margin-right: 30;
+.hero-title-centr > .hero-descr:last-child {
+  margin-right: 0px;
 }
 
 .hero-item .hero-title-centr {
@@ -225,9 +222,23 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
 }
-.container > .title {
-  display: flex;
+.container > .hero-title {
+  display: inline-block;
+  min-width: 376px;
+  height: 42px;
+  margin-top: 94px;
+  margin-bottom: 50px;
   text-align: center;
+}
+.different > .hero-item {
+  display: flex;
+  width: 370px;
+  right: 294px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+.different > .hero-item:last-child {
+  margin-right: 0px;
 }
 .hero-title {
   font-family: "Roboto", sans-serif;
@@ -261,6 +272,26 @@ a {
   letter-spacing: 0.03em;
   color: var(--secondary-dark-txt);
 }
+.container > .hero-title-team {
+  display: inline-block;
+  min-width: 264px;
+  height: 42px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.team-container {
+  display: flex;
+  width: 270px;
+  right: 368px;
+  margin-bottom: 94px;
+}
+.team-container > .hero-item {
+  margin-right: 30px;
+}
+..team-container > .hero-item :last-child {
+  margin-right: 0px;
+}
 .container-footer {
   display: block;
   width: 1230px;
@@ -275,7 +306,7 @@ a {
   width: 145px;
   height: 31px;
   padding-bottom: 20px;
-  margin: auto;
+  margin-top: 60px;
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -367,4 +398,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 30px;
+}
+.flex-container:nth-last-child(-n + 3) {
+  margin-bottom: 94px;
 }
