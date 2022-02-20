@@ -41,9 +41,10 @@ a {
 
 .header {
   display: flex;
-  width: 1200px;
+  width: 1230px;
   height: 80px;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: 0px;
   margin-right: 0px;
   align-items: center;
@@ -138,9 +139,15 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
 }
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .hero .hero-title-basic {
-  display: inline-block;
   padding-top: 200px;
   padding-bottom: 30px;
   padding-right: 432px;
@@ -218,6 +225,10 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
 }
+.container > .title {
+  display: flex;
+  text-align: center;
+}
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -249,6 +260,22 @@ a {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-dark-txt);
+}
+.container-footer {
+  display: block;
+  width: 1230px;
+  height: 252px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.container-footer > .footer-link {
+  display: inline-block;
+  width: 145px;
+  height: 31px;
+  padding-bottom: 20px;
+  margin: auto;
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -328,4 +355,16 @@ a {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-dark-txt);
+}
+.test-container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
