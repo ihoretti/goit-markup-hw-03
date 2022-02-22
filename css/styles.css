@@ -266,6 +266,16 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
 }
+.hero-item {
+  display: box;
+  width: 270px;
+  right: 368px;
+  margin-right: 30px;
+  margin-bottom: 94px;
+}
+.hero-item:last-child {
+  margin-right: 0px;
+}
 .hero-title-foto {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
