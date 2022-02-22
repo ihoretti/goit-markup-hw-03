@@ -157,10 +157,10 @@ a {
 }
 
 .container-hero > .hero-title-basic {
-  min-width: 696px;
+  max-width: 696px;
   height: 120px;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .hero-title-basic {
   font-family: "Roboto", sans-serif;
@@ -298,7 +298,7 @@ a {
 .team-container > .hero-item {
   margin-right: 30px;
 }
-..team-container > .hero-item :last-child {
+.team-container > .hero-item :last-child {
   margin-right: 0px;
 }
 .container-footer {
@@ -310,6 +310,11 @@ a {
   margin-left: 0px;
   margin-right: 0px;
 }
+.list {
+  display: block;
+  padding: 0;
+}
+
 .container-footer > .footer-link {
   display: inline-block;
   width: 145px;
@@ -332,6 +337,9 @@ a {
   background-color: var(--primary-dark-bg);
 }
 .footer-adr-link {
+  display: block;
+  min-width: 231px;
+  margin-bottom: 9px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -341,6 +349,10 @@ a {
   color: var(--primary-white-txt);
 }
 .footer-link-email {
+  display: block;
+  min-width: 231px;
+  margin-bottom: 9px;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -350,6 +362,10 @@ a {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link-tel {
+  display: block;
+  min-width: 231px;
+  margin-bottom: 60px;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
