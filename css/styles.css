@@ -146,10 +146,20 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.container-hero {
+  width: 1230px;
+  height: 600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .container-hero > .hero-title-basic {
   min-width: 696px;
   height: 120px;
+  margin-top: 0px;
   margin-bottom: 30px;
 }
 .hero-title-basic {
@@ -165,7 +175,6 @@ a {
 .hero .fono {
   max-width: 1600px;
   height: 600px;
-  text-align: center;
 
   background-color: var(--primary-dark-bg);
 }
