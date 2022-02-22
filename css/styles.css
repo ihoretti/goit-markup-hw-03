@@ -59,7 +59,7 @@ a {
   display: flex;
 }
 .nav-container {
-  margin-right: 93px;
+  margin-right: 331px;
 }
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -68,6 +68,7 @@ a {
 .header .header-logo {
   width: 145px;
   height: 31px;
+  margin-right: 93px;
   align-items: center;
 
   font-family: "Raleway", sans-serif;
