@@ -50,7 +50,6 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-
 .nav-container > .list {
   display: flex;
   align-items: center;
@@ -148,6 +147,7 @@ a {
   margin-right: auto;
 }
 .container-hero {
+  display: block;
   width: 1230px;
   height: 600px;
   padding-left: 15px;
