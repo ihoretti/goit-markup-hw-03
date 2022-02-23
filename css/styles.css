@@ -327,11 +327,12 @@ a {
 }
 
 .container-footer > .footer-link {
-  display: inline-block;
+  display: block;
   width: 145px;
   height: 31px;
+  padding-top: 60px;
   padding-bottom: 20px;
-  margin-top: 60px;
+  padding-left: 15px;
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -350,7 +351,9 @@ a {
 .footer-adr-link {
   display: block;
   min-width: 231px;
-  margin-bottom: 9px;
+  padding: 9px;
+  padding-left: 15px;
+
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -362,7 +365,8 @@ a {
 .footer-link-email {
   display: block;
   min-width: 231px;
-  margin-bottom: 9px;
+  padding: 9px;
+  padding-left: 15px;
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -375,7 +379,8 @@ a {
 .footer-link-tel {
   display: block;
   min-width: 231px;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
