@@ -159,11 +159,11 @@ a {
 }
 
 .hero > .hero-title-basic {
-  display: block;
-  width: 696px;
-  height: 120px;
+  display: inline-block;
+  min-width: 696px;
+  padding-bottom: 30px;
   padding-top: 200px;
-  padding-left: 253px;
+  padding-left: 200px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: auto;
@@ -196,6 +196,7 @@ p {
   box-sizing: border-box;
   min-width: 200px;
   padding: 10px 32px;
+  margin: auto;
 
   font-family: "Roboto", sans-serif;
   font-size: 16px;
