@@ -159,11 +159,10 @@ a {
 }
 
 .hero > .hero-title-basic {
-  display: inline-block;
-  min-width: 696px;
+  max-width: 696px;
   padding-bottom: 30px;
   padding-top: 200px;
-  padding-left: 200px;
+
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: auto;
@@ -186,9 +185,10 @@ h4,
 p {
   margin: 0;
 }
-
 .hero .fono {
   height: 600px;
+  padding-bottom: 200px;
+
   background-color: var(--primary-dark-bg);
 }
 .hero-btn {
