@@ -499,3 +499,19 @@ p {
   margin-right: 0px;
   text-align: center;
 }
+.title {
+  min-width: 322px;
+  right: 36px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.descr {
+  min-width: 322px;
+  right: 30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
