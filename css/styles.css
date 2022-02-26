@@ -487,6 +487,7 @@ p {
 .btn-list {
   display: flex;
   justify-content: center;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 .filter-button {
