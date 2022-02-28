@@ -453,7 +453,6 @@ p {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-dark-txt);
 }
 .list .descr {
   font-family: "Roboto", sans-serif;
@@ -491,13 +490,16 @@ p {
   margin-bottom: 50px;
 }
 .filter-button {
-  margin-right: 8px;
+  display: flex;
   border-radius: 4px;
   box-sizing: 0px;
   padding: 6px 22px;
+  margin-right: 8px ;
+
 }
-.filter-button:last-child {
-  margin-right: 0px;
+.filter-button:not(:last-child) {
+  display: flex;
+  margin-right: 8px;
   text-align: center;
 }
 .title {
