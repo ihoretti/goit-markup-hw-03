@@ -156,7 +156,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 200px;
-  
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -246,15 +245,19 @@ p {
   color: var(--primary-dark-txt);
 }
 .container > .hero-title {
- margin-bottom: 50px;
+ padding-bottom: 50px;
  text-align: center;
+}
+.different{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .different > .hero-item {
   display: flex;
   width: 370px;
   right: 294px;
   margin-right: 30px;
-  margin-bottom: 50px;
+  padding-bottom: 94px;
 }
 .different > .hero-item:last-child {
   margin-right: 0px;
@@ -305,7 +308,8 @@ p {
   display: inline-block;
   min-width: 264px;
   height: 42px;
-  margin-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 50px;
   margin-left: 455px;
   text-align: center;
 }
@@ -313,7 +317,7 @@ p {
   display: flex;
   width: 270px;
   right: 368px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .team-container > .hero-item {
   margin-right: 30px;
