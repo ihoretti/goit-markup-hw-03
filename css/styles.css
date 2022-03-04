@@ -305,12 +305,8 @@ p {
   color: var(--secondary-dark-txt);
 }
 .container > .hero-title-team {
-  display: inline-block;
-  min-width: 264px;
-  height: 42px;
   padding-top: 94px;
   padding-bottom: 50px;
-  margin-left: 455px;
   text-align: center;
 }
 .team-container {
