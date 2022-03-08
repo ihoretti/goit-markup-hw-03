@@ -38,6 +38,8 @@ body {
 }
 .list {
   list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 a {
   text-decoration: none;
@@ -48,6 +50,7 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
 }
 .header,
 .header-box {
@@ -78,9 +81,7 @@ a {
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
 }
-.con-container {
-  display: flex;
-}
+
 .header .header-logo {
   width: 145px;
   height: 31px;
@@ -159,7 +160,6 @@ a {
 }
 .container {
   width: 1200px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -486,9 +486,11 @@ p {
   color: var(--secondary-dark-txt);
 }
 .test-container {
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -523,7 +525,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
