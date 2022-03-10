@@ -46,11 +46,10 @@ a {
 }
 .head-container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: auto;
+  padding-right: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-left: auto;
 }
 .header,
 .header-box {
@@ -58,7 +57,7 @@ a {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0px;
+  margin-left: auto;
   margin-right: 0px;
   align-items: center;
   justify-content: space-between;
@@ -147,6 +146,11 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.connection .list {
+  display: flex;
+  align-items: center;
+  width: 307px;
 }
 .header-item-tel .header-link-tel {
   margin-left: 50px;
