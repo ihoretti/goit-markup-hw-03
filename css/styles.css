@@ -503,6 +503,7 @@ p {
   flex-wrap: wrap;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 .flex-container:nth-last-child(-n + 3) {
   padding-bottom: 94px;
