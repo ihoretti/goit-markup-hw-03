@@ -231,10 +231,12 @@ p {
 .hero-btn:focus {
   background-color: #188ce8;
 }
-.container > .hang {
+.section {
+  padding-top: 94px;
+}
+.container < .hang {
   display: flex;
   margin: auto;
-  padding-top: 94px;
 }
 .hero-item > .hero-title-centr {
   width: 270px;
@@ -300,11 +302,8 @@ p {
   color: var(--primary-dark-txt);
 }
 .hero-item {
-  display: box;
   width: 270px;
-  right: 368px;
   margin-right: 30px;
-  padding-bottom: 94px;
 }
 .hero-item:last-child {
   margin-right: 0px;
@@ -330,8 +329,6 @@ p {
   text-align: center;
 }
 .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
   padding-left: 15px;
   padding-right: 15px;
 }
