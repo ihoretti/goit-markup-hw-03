@@ -234,7 +234,7 @@ p {
 .section {
   padding-top: 94px;
 }
-.container < .hang {
+.container .hang {
   display: flex;
   margin: auto;
 }
