@@ -62,7 +62,7 @@ a {
 }
 .box {
   width: 1200px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-container > .list {
@@ -513,6 +513,10 @@ p {
   margin-right: 0px;
 }
 .signa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
   border-bottom: 1px solid #ececec;
   border-right: 1px solid #ececec;
   border-left: 1px solid #ececec;
@@ -556,17 +560,11 @@ p {
 .title {
   min-width: 322px;
   right: 36px;
-  padding-top: 20px;
   padding-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
   color: #212121;
 }
 .descr {
   min-width: 322px;
   right: 30px;
   padding-top: 0px;
-  padding-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
