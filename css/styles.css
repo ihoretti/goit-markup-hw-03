@@ -371,8 +371,6 @@ p {
   display: block;
   width: 1200px;
 
-  padding-left: 15px;
-  padding-right: 15px;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -405,7 +403,7 @@ p {
 .footer-adr-link {
   display: block;
   min-width: 231px;
-  padding: 9px;
+  padding-bottom: 9px;
   padding-left: 15px;
 
   font-family: "Roboto", sans-serif;
@@ -419,7 +417,7 @@ p {
 .footer-link-email {
   display: block;
   min-width: 231px;
-  padding: 9px;
+  padding-bottom: 9px;
   padding-left: 15px;
 
   font-family: "Roboto", sans-serif;
@@ -433,7 +431,6 @@ p {
 .footer-link-tel {
   display: block;
   min-width: 231px;
-  padding-bottom: 60px;
   padding-left: 15px;
 
   font-family: "Roboto", sans-serif;
