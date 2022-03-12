@@ -234,6 +234,11 @@ p {
 .section {
   padding-top: 94px;
 }
+.section-different,
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container .hang {
   display: flex;
   margin: auto;
