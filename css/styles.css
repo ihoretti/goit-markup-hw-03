@@ -331,10 +331,7 @@ p {
   margin-bottom: 50px;
   text-align: center;
 }
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+
 
 .team-container {
   display: flex;
