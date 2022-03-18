@@ -331,8 +331,6 @@ p {
   margin-bottom: 50px;
   text-align: center;
 }
-
-
 .team-container {
   display: flex;
   width: 270px;
@@ -499,9 +497,7 @@ p {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-.flex-container:nth-last-child(-n + 3) {
-  padding-bottom: 94px;
-}
+
 .flex-element {
   width: 370px;
   margin-bottom: 30px;
@@ -528,7 +524,6 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   justify-content: center;
-  padding-top: 94px;
   margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
@@ -568,4 +563,8 @@ p {
   min-width: 322px;
   right: 30px;
   padding-top: 0px;
+}
+.tilter {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
