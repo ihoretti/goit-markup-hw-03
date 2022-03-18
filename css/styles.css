@@ -64,13 +64,10 @@ a {
   justify-content: space-between;
 }
 .box {
-  width: 1200px;
   border-bottom: 1px solid #ececec;
 }
-
 .nav-container > .list {
   display: flex;
-
   align-items: center;
 }
 .container > .list {
@@ -82,7 +79,6 @@ a {
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
 }
-
 .header .header-logo {
   width: 145px;
   height: 31px;
@@ -282,7 +278,6 @@ p {
 .different > .hero-item {
   display: flex;
   width: 370px;
-
   margin-right: 30px;
 }
 .different > .hero-item:last-child {
@@ -497,7 +492,6 @@ p {
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-
 .flex-element {
   width: 370px;
   margin-bottom: 30px;
