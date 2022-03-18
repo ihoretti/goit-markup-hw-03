@@ -387,8 +387,7 @@ p {
   padding: 0px;
 }
 
-.container-footer > .footer-link {
-  display: block;
+.container-footer  .footer-link {
   width: 145px;
   height: 31px;
   padding-bottom: 20px;
