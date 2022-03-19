@@ -57,8 +57,7 @@ a {
 .header,
 .header-box {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
   margin-left: auto;
   margin-right: 0px;
   align-items: center;
@@ -70,6 +69,8 @@ a {
 .nav-container > .list {
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .container > .list {
   display: flex;
@@ -80,9 +81,15 @@ a {
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
 }
+.connection {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .header .header-logo {
   width: 145px;
   height: 31px;
+  padding-top: 24px;
+  padding-bottom: 24px;  
   align-items: center;
   margin-right: 93px;
 
@@ -116,7 +123,6 @@ a {
 .nav-item .nav-links {
   width: 49px;
   height: 16px;
-
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
@@ -257,7 +263,6 @@ p {
 .hero-title-centr > .hero-descr:last-child {
   margin-right: 0px;
 }
-
 .hero-item .hero-title-centr {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -370,8 +375,6 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
-  
 }
 .list {
   display: block;
