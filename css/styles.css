@@ -40,14 +40,20 @@ html {
 a {
   text-decoration: none;
 }
-
-.container {
+.container-header{
   display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header,
 .header-box {
