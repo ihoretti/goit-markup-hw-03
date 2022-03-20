@@ -385,7 +385,7 @@ p {
   width: 145px;
   height: 31px;
   margin-bottom: 20px;
-  padding-left: 15px;
+  
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -407,7 +407,7 @@ p {
   display: block;
   min-width: 231px;
   padding-bottom: 9px;
-  padding-left: 15px;
+  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -421,7 +421,7 @@ p {
   display: block;
   min-width: 231px;
   padding-bottom: 9px;
-  padding-left: 15px;
+  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -434,7 +434,7 @@ p {
 .footer-link-tel {
   display: block;
   min-width: 231px;
-  padding-left: 15px;
+  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
